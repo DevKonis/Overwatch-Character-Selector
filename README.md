@@ -1,2 +1,2 @@
-# overwatch-character-selector
+# Overwatch-Character-Selector
 Skills: HTML/CSS
