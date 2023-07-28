@@ -1,5 +1,3 @@
-.container {
-}
 .container .heroes {
   display: flex;
   /* 각각의 요소를 수평정렬하기 위함 */
