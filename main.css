@@ -1,0 +1,89 @@
+.container {
+}
+.container .heroes {
+  display: flex;
+  /* 각각의 요소를 수평정렬하기 위함 */
+  flex-wrap: wrap;
+  /* 묶음처리하여 요소가 한줄을 넘어가면 자연스럽게 넘어가게 함 */
+  justify-content: center;
+  /* 가운데 정렬 시키기 위함 */
+
+  background-color: orange;
+  /* 시각적 구분을 위한 배경 색 지정 */
+  max-width: 700px;
+  /* width를 쓰면 줄어들면 블록이 줄어들지 않음 */
+  /* 따라서 max-width를 써서 줄어들게 하고, 최대에선 700px 유지함 */
+  margin: 0 auto;
+  /* margin 요소는 가운데 정렬용. 요소가 블록요소이고, 가로요소가 명시되어 있어야함 */
+  /* 좌우만하고, 상하는 없게 하기 위해 0을 넣음 */
+  padding: 40px 20px;
+}
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  /* 각각의 요소들이 구분이 되지 않아 margin을 넣어 구분함 */
+  border: 3px solid #fff;
+  border-radius: 10px;
+  /* 보더 모서리 깎음 */
+  box-sizing: border-box;
+  /* border가 들어간 만큼 box가 커지지 않게함 */
+  background-color: #555;
+  overflow: hidden;
+  /* 요소의 크기를 넘어가는 것들을 숨김 */
+  transform: skewX(-14deg);
+  /* 요소를 -14deg 만큼 기울임 */
+  transition: transform 0.1s, background-color 0.6s;
+  /* 0.1초만큼 지연, 배경색 0.6초 지연 */
+}
+.container .heroes .hero:hover {
+  background-color: #ff9c00;
+  transform: skewX(-14deg) scale(1.3);
+  /* hover 요소의 크기를 1.5배 함 */
+  z-index: 1;
+  /* 다른 것들은 전부 0이기에 1이 튀어나오게 됨 */
+}
+.container .heroes .hero .image {
+  width: 140%;
+  /* 부모의 요소를 고스란히 받기 위해 %를 사용 */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90px;
+  transform: skewX(14deg) translateX(-16px);
+  /* 부모의 skewX 함수를 다시 원위치 시킴 */
+  /* translateX를 통해 위치 재조정 */
+}
+
+.container .heroes .hero:nth-child(1) .image { background-image: url(images/hero1.png);}
+.container .heroes .hero:nth-child(2) .image { background-image: url(images/hero2.png);}
+.container .heroes .hero:nth-child(3) .image { background-image: url(images/hero3.png);}
+.container .heroes .hero:nth-child(4) .image { background-image: url(images/hero4.png);}
+.container .heroes .hero:nth-child(5) .image { background-image: url(images/hero5.png);}
+.container .heroes .hero:nth-child(6) .image { background-image: url(images/hero6.png);}
+.container .heroes .hero:nth-child(7) .image { background-image: url(images/hero7.png);}
+.container .heroes .hero:nth-child(8) .image { background-image: url(images/hero8.png);}
+.container .heroes .hero:nth-child(9) .image { background-image: url(images/hero9.png);}
+.container .heroes .hero:nth-child(10) .image { background-image: url(images/hero10.png);}
+.container .heroes .hero:nth-child(11) .image { background-image: url(images/hero11.png);}
+.container .heroes .hero:nth-child(12) .image { background-image: url(images/hero12.png);}
+.container .heroes .hero:nth-child(13) .image { background-image: url(images/hero13.png);}
+.container .heroes .hero:nth-child(14) .image { background-image: url(images/hero14.png);}
+.container .heroes .hero:nth-child(15) .image { background-image: url(images/hero15.png);}
+.container .heroes .hero:nth-child(16) .image { background-image: url(images/hero16.png);}
+.container .heroes .hero:nth-child(17) .image { background-image: url(images/hero17.png);}
+.container .heroes .hero:nth-child(18) .image { background-image: url(images/hero18.png);}
+.container .heroes .hero:nth-child(19) .image { background-image: url(images/hero19.png);}
+.container .heroes .hero:nth-child(20) .image { background-image: url(images/hero20.png);}
+.container .heroes .hero:nth-child(21) .image { background-image: url(images/hero21.png);}
+.container .heroes .hero:nth-child(22) .image { background-image: url(images/hero22.png);}
+.container .heroes .hero:nth-child(23) .image { background-image: url(images/hero23.png);}
+.container .heroes .hero:nth-child(24) .image { background-image: url(images/hero24.png);}
+.container .heroes .hero:nth-child(25) .image { background-image: url(images/hero25.png);}
+.container .heroes .hero:nth-child(26) .image { background-image: url(images/hero26.png);}
+.container .heroes .hero:nth-child(27) .image { background-image: url(images/hero27.png);}
+.container .heroes .hero:nth-child(28) .image { background-image: url(images/hero28.png);}
+.container .heroes .hero:nth-child(29) .image { background-image: url(images/hero29.png);}
+.container .heroes .hero:nth-child(30) .image { background-image: url(images/hero30.png);}
+.container .heroes .hero:nth-child(31) .image { background-image: url(images/hero31.png);}
+.container .heroes .hero:nth-child(32) .image { background-image: url(images/hero32.png);}
