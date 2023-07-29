@@ -1,6 +1,6 @@
 # Overwatch-Character-Selector
-Skills: HTML/CSS
+- Skills: HTML/CSS
 
 ## branches
-main: only CSS
-refactored: SCSS
+- main: only CSS
+- refactored: SCSS
