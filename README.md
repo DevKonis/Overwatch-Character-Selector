@@ -1,2 +1,3 @@
 # Overwatch-Character-Selector
-Skills: HTML/CSS
+- HTML
+- CSS
