@@ -7,4 +7,4 @@
 
 ## Link
 - Original: https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla
-- https://comfy-basbousa-fcca82.netlify.app
+- https://devkonis-overwatch.netlify.app
