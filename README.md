@@ -7,4 +7,3 @@
 
 ## Link
 - [Overwatch Character Selector Display](https://devkonis-overwatch.netlify.app)
-- Original: https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla
