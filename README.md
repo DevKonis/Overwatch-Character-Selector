@@ -6,5 +6,5 @@
 - refactored: SCSS
 
 ## Link
-- [Overwatch Character Selector Display](https://devkonis-overwatch.netlify.app)
+- [Overwatch Character Selector Display](https://overwatch-character-selector.vercel.app/)
 - Origin: https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla
